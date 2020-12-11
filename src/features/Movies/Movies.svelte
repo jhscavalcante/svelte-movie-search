@@ -1,6 +1,6 @@
 <script>
 	import MovieSearch from './MovieSearch.svelte';
-	import MovieList from './MovieList.svelte';
+	/*import MovieList from './MovieList.svelte';*/
 </script>
 
 <main>
@@ -8,8 +8,8 @@
       <div class="md:mx-4">
         
         <MovieSearch/>
-        <MovieList/>
-        
+        <!-- <MovieList/> -->
+
       </div>
     </div>
   </main>
