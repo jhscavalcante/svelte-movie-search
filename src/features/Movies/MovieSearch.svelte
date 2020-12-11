@@ -7,7 +7,8 @@
   const search = async () => {
     fetchMovies(term);
   };
-
+  
+  fetchMovies(term);
 </script>
 
 <div class="mt-3">
