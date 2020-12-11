@@ -1,13 +1,13 @@
 <script>
-  import { createEventDispatcher } from "svelte";
+  import { fetchMovies } from '../../api/movie-api';
 
   let term = "pulp";
-
-  const dispatch = createEventDispatcher();
+  
 
   const search = async () => {
-    dispatch('doSearch', { term })
+    fetchMovies(term);
   };
+
 </script>
 
 <div class="mt-3">
